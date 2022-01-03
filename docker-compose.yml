@@ -22,7 +22,7 @@ services:
     command: yarn nodemon
 
   mongo:
-    image: mongo:3.6.1
+    image: mongo:5
     ports:
       - '27017'
     volumes:
